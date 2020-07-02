@@ -178,12 +178,24 @@ a {
 .footer-list .item {
   margin-top: 20px;
 }
-.footer-list .item {
+.footer-icon {
+  fill: var(--white-color);
+}
+.footer-social {
+  display: inline-flex;
+  padding: 0;
+  width: 44px;
+  height: 44px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
+  align-items: center;
+  justify-content: center;
 }
 .footer-list .item:not(:last-child) {
   margin-right: 10px;
+}
+.footer-social:hover {
+  background-color: var(--accent-color);
 }
 
 /* STUDIO */
@@ -350,6 +362,33 @@ a {
   text-align: center;
   font-size: 16px;
   line-height: 1.19;
+}
+.links {
+  margin-top: 16px;
+  justify-content: center;
+}
+.networks {
+  display: inline-flex;
+  padding: 0;
+  width: 44px;
+  height: 44px;
+
+  align-items: center;
+  justify-content: center;
+}
+.links .item:not(:last-child) {
+  margin-right: 10px;
+}
+.link-icon {
+  fill: #afb1b8;
+}
+.networks:hover {
+  fill: white;
+  background-color: var(--accent-color);
+  border-radius: 50%;
+}
+.networks:hover .link-icon {
+  fill: var(--white-color);
 }
 
 /* Often clients */
