@@ -418,28 +418,12 @@ a {
 .clients-list .item:not(:last-child) {
   margin-right: 30px;
 }
-.logo-1 {
-  padding: 20px 63px;
-}
-
-.logo-2 {
-  padding: 19px 65px;
-}
-
-.logo-3 {
-  padding: 24px 65px;
-}
-
-.logo-4 {
-  padding: 24px 45px;
-}
-
-.logo-5 {
-  padding: 22px 56px;
-}
-
-.logo-6 {
-  padding: 22px 41px;
+.clients-list .item {
+  width: 170px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .clients-icon {
   fill: #afb1b8;
