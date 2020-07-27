@@ -75,29 +75,69 @@
               <p class="modal-title">
                 Оставьте свои данные, мы вам перезвоним
               </p>
+              <form action="" autocomplete="off">
+                <label class="form-field">
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    class="form name"
+                    placeholder=" "
+                  />
+                  <span class="label">Имя</span>
+                  <svg width="18" height="18" class="modal-icon">
+                    <use href="./images/svg/persone.svg#persone"></use>
+                  </svg>
+                </label>
+                <label class="form-field">
+                  <input
+                    type="tel"
+                    name="tel"
+                    id="tel"
+                    class="form tel"
+                    placeholder=" "
+                  />
+                  <span class="label">Телефон</span>
+                  <svg width="18" height="18" class="modal-icon">
+                    <use href="./images/svg/modal-phone.svg#modal-phone"></use>
+                  </svg>
+                </label>
+                <label class="form-field">
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    class="form modal-email"
+                    placeholder=" "
+                  />
+                  <span class="label">Почта</span>
+                  <svg width="18" height="18" class="modal-icon">
+                    <use href="./images/svg/modal-email.svg#modal-email"></use>
+                  </svg>
+                </label>
 
-              <input type="text" name="name" id="name" class="name" />
-              <input type="tel" name="tel" id="tel" class="tel" />
-              <input type="email" name="email" id="email" class="modal-email" />
-              <textarea
-                name="comment"
-                id="comment"
-                placeholder="Комментарий"
-              ></textarea>
-              <br />
-              <div role="group" class="div-checkbox">
-                <input
-                  type="checkbox"
-                  name="checkbox"
-                  id="checkbox"
-                  class="checkbox"
-                />
-                <label for="checkbox" class="checkbox-label"
-                  >Соглашаюсь с рассылкой и принимаю
-                  <a href="" class="modal-link">Условия договора</a></label
-                >
-              </div>
-              <a href="" class="hero-button">Отправить</a>
+                <textarea
+                  name="comment"
+                  id="comment"
+                  placeholder="Комментарий"
+                ></textarea>
+                <br />
+                <div role="group" class="div-checkbox">
+                  <label for="checkbox" class="checkbox-label">
+                    <input
+                      type="checkbox"
+                      name="checkbox"
+                      id="checkbox"
+                      class="checkbox"
+                    />
+                    <span class="custom-checkbox"></span>
+                    Соглашаюсь с рассылкой и принимаю
+                    <a href="" class="modal-link">Условия договора</a></label
+                  >
+                </div>
+
+                <a href="" class="hero-button">Отправить</a>
+              </form>
             </div>
           </div>
         </div>
